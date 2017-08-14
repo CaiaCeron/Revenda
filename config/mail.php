@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'mailgun'),
+    'driver' => env('MAIL_DRIVER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'alexandrep.schmidt@hotmail.com', 'name' => 'Alexandre'],
+    'from' => ['address' => 'alexandrep.schmidt@gmail.com', 'name' => 'Alexandre'],
 
     /*
     |--------------------------------------------------------------------------
@@ -81,9 +81,7 @@ return [
     |
     */
 
-    'username' => env('postmaster@sandbox50e4f1498ce14c9d9c2b8b9881022baa.mailgun.org'),
-
-    'password' => env('2c87c911d961f1c2c3cd26a167a482ee'),
+   
 
     /*
     |--------------------------------------------------------------------------

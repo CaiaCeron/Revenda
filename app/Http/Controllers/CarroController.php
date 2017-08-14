@@ -229,7 +229,7 @@ class CarroController extends Controller
 
     public function enviaMensagem(Request $request)
     {
-        $destinatario = "alexandrep.schmidt@gmail.com";
-        Mail::to($destinatario)->send(new AvisoPromocao());
+        $destino = "alexandrep.schmidt@hotmail.com";
+        Mail::to($destino)->send(new AvisoPromocao());
     }
 }
